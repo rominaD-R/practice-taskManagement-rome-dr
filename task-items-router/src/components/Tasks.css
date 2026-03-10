@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+li {
+    padding: 10px 14px;
+    border: 1px solid black;
+    border-radius: 16px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: #ddf5f5;
+    transition: 0.4s;
+}
+
+a {
+  font-weight: 500;
+  color: #0d0d15;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #173e6b;
+  transition: 0.4s;
+}
